@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/ssd/Develop/NHLStendenProjectsPrivate/Chatterbox/chatter-cpp/main.cpp
+iostream
+-
+stdio.h
+-
+unistd.h
+-
+cstring
+-
+sys/stat.h
+-
+fcntl.h
+-
+fstream
+-
+chrono
+-
+

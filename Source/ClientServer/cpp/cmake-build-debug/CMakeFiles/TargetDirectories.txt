@@ -1,0 +1,3 @@
+/mnt/ssd/Develop/NHLStendenProjectsPrivate/Chatterbox/chatter-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/ssd/Develop/NHLStendenProjectsPrivate/Chatterbox/chatter-cpp/cmake-build-debug/CMakeFiles/chatter.dir
+/mnt/ssd/Develop/NHLStendenProjectsPrivate/Chatterbox/chatter-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir

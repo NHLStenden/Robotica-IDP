@@ -6,7 +6,7 @@ namespace LoggingExample
     {
         public void Log(string msg)
         {
-            Console.WriteLine(msg);
+            Console.WriteLine($"{ILogger.Timestamp()}: {msg}");
         }
     }
 }

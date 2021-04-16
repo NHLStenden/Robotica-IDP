@@ -9,7 +9,7 @@ namespace LoggingExample
 
         public new async void Log(string msg)
         {
-            await File.AppendAllTextAsync(this.Filename, $"{DateTime.Now.ToString(TimeFormatStr)}: {msg} {Environment.NewLine}");
+            await File.AppendAllTextAsync(this.Filename, $"{ILogger.Timestamp()}: {msg} {Environment.NewLine}");
         }
     }
 }

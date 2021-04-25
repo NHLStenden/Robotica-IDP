@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 
-namespace LoggingExample
+namespace Logging_not_portable
 {
-    class Program_not_portable
+    class Program
     {
         private static int doe_iets(string wanneer)
         {
@@ -10,21 +10,19 @@ namespace LoggingExample
             // Moeilijke berekening..
             Console.WriteLine($"Wanneer? {wanneer}!");
             Console.WriteLine("En klaar met iets!");
-            
+        
             return 4; // Random getal, bepaald met dobbelsteen.
         }
-        
-        private static int doe_nog_iets()
+    
+        private static void doe_nog_iets()
         {
             Console.WriteLine("begonnen met nog iets");
             // Moeilijke berekening..
             Console.WriteLine($"druk bezig!");
             Console.WriteLine("En alweer klaar!");
-            
-            return 4; // Random getal, bepaald met dobbelsteen.
         }
-        
-        
+    
+    
         private static void Main(string[] args)
         {
             Console.WriteLine("Tijd om iets te gaan doen..");
@@ -34,7 +32,7 @@ namespace LoggingExample
             Console.WriteLine("Tijd om nog iets te gaan doen..");
             doe_nog_iets();
             Console.WriteLine($"Klaar met nog iets doen");
-            
+        
             Console.WriteLine("Klaar met alles, shutdown in..3..2..1");
         }
     }

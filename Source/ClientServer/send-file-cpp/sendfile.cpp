@@ -142,7 +142,7 @@ int main() {
     int fd_read  = open(myfifo_read, O_RDONLY);
 
     command MyCommand;
-    MyCommand.filename = "/home/martin/Downloads/2020-05-27-raspios-buster-lite-armhf.img";
+    MyCommand.filename = "/home/martin/input.file";  // FIXME: Change filename according to current situation
     MyCommand.processingInstruction = "copy";
 
     long int i=0;
